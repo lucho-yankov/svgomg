@@ -64,6 +64,11 @@
     // increase the touch target
     height: 60px;
 
+    &::-webkit-slider-thumb {
+      height: 60px;
+      width: 60px;
+    }
+
     @supports (width: calc(100% + 10px)) {
       width: calc(100% + 10px);
       margin-left: -5px;
